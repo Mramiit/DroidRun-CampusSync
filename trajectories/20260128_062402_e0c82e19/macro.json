@@ -1,0 +1,15 @@
+{
+  "version": "1.0",
+  "description": "You are my personal assistant. Please do the following tasks in order: 1. Open 'WhatsApp' and search for 'Amit Kumar'. Read the last message to find the class subject and time. 2. Go to the 'Calendar' app and create a new event for that class at the correct time. 3. Open the 'Clock' app and set an alarm for 10 minutes before the class starts. 4. Go back to the home screen when you are done.",
+  "timestamp": "20260128_062424",
+  "total_actions": 1,
+  "actions": [
+    {
+      "type": "StartAppEvent",
+      "action_type": "start_app",
+      "description": "Start app com.whatsapp",
+      "package": "com.whatsapp",
+      "activity": ".Main"
+    }
+  ]
+}

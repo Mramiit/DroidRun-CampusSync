@@ -1,0 +1,186 @@
+[
+  {
+    "index": 1,
+    "resourceId": "",
+    "className": "FrameLayout",
+    "text": "android.widget.FrameLayout",
+    "bounds": "109,580,971,1893",
+    "children": []
+  },
+  {
+    "index": 2,
+    "resourceId": "",
+    "className": "ViewGroup",
+    "text": "android.view.ViewGroup",
+    "bounds": "109,580,971,1893",
+    "children": []
+  },
+  {
+    "index": 3,
+    "resourceId": "com.google.android.deskclock:id/material_hour_tv",
+    "className": "View",
+    "text": "06",
+    "bounds": "172,717,424,927",
+    "children": []
+  },
+  {
+    "index": 4,
+    "resourceId": "com.google.android.deskclock:id/material_minute_tv",
+    "className": "View",
+    "text": "00",
+    "bounds": "487,717,739,927",
+    "children": []
+  },
+  {
+    "index": 5,
+    "resourceId": "com.google.android.deskclock:id/material_clock_period_toggle",
+    "className": "LinearLayout",
+    "text": "Select AM or PM",
+    "bounds": "771,696,908,948",
+    "children": []
+  },
+  {
+    "index": 6,
+    "resourceId": "com.google.android.deskclock:id/material_clock_period_am_button",
+    "className": "CompoundButton",
+    "text": "AM",
+    "bounds": "771,696,908,822",
+    "children": []
+  },
+  {
+    "index": 7,
+    "resourceId": "com.google.android.deskclock:id/material_clock_period_pm_button",
+    "className": "CompoundButton",
+    "text": "PM",
+    "bounds": "771,819,908,945",
+    "children": []
+  },
+  {
+    "index": 8,
+    "resourceId": "com.google.android.deskclock:id/material_clock_face",
+    "className": "ViewGroup",
+    "text": "com.google.android.deskclock:id/material_clock_face",
+    "bounds": "204,1022,876,1694",
+    "children": []
+  },
+  {
+    "index": 9,
+    "resourceId": "",
+    "className": "TextView",
+    "text": "11",
+    "bounds": "346,1069,473,1195",
+    "children": []
+  },
+  {
+    "index": 10,
+    "resourceId": "",
+    "className": "TextView",
+    "text": "12",
+    "bounds": "478,1034,604,1160",
+    "children": []
+  },
+  {
+    "index": 11,
+    "resourceId": "",
+    "className": "TextView",
+    "text": "10",
+    "bounds": "251,1164,377,1291",
+    "children": []
+  },
+  {
+    "index": 12,
+    "resourceId": "",
+    "className": "TextView",
+    "text": "1",
+    "bounds": "609,1069,735,1195",
+    "children": []
+  },
+  {
+    "index": 13,
+    "resourceId": "",
+    "className": "TextView",
+    "text": "2",
+    "bounds": "704,1164,830,1291",
+    "children": []
+  },
+  {
+    "index": 14,
+    "resourceId": "",
+    "className": "TextView",
+    "text": "9",
+    "bounds": "216,1295,342,1421",
+    "children": []
+  },
+  {
+    "index": 15,
+    "resourceId": "",
+    "className": "TextView",
+    "text": "3",
+    "bounds": "740,1296,866,1422",
+    "children": []
+  },
+  {
+    "index": 16,
+    "resourceId": "",
+    "className": "TextView",
+    "text": "8",
+    "bounds": "251,1427,377,1553",
+    "children": []
+  },
+  {
+    "index": 17,
+    "resourceId": "",
+    "className": "TextView",
+    "text": "7",
+    "bounds": "347,1522,473,1648",
+    "children": []
+  },
+  {
+    "index": 18,
+    "resourceId": "",
+    "className": "TextView",
+    "text": "6",
+    "bounds": "478,1558,604,1684",
+    "children": []
+  },
+  {
+    "index": 19,
+    "resourceId": "",
+    "className": "TextView",
+    "text": "5",
+    "bounds": "608,1522,735,1648",
+    "children": []
+  },
+  {
+    "index": 20,
+    "resourceId": "",
+    "className": "TextView",
+    "text": "4",
+    "bounds": "704,1427,830,1553",
+    "children": []
+  },
+  {
+    "index": 21,
+    "resourceId": "com.google.android.deskclock:id/material_timepicker_mode_button",
+    "className": "Button",
+    "text": "Switch to text input mode for the time input.",
+    "bounds": "141,1757,268,1883",
+    "children": []
+  },
+  {
+    "index": 22,
+    "resourceId": "com.google.android.deskclock:id/material_timepicker_cancel_button",
+    "className": "Button",
+    "text": "Cancel",
+    "bounds": "572,1762,761,1888",
+    "children": []
+  },
+  {
+    "index": 23,
+    "resourceId": "com.google.android.deskclock:id/material_timepicker_ok_button",
+    "className": "Button",
+    "text": "OK",
+    "bounds": "782,1762,950,1888",
+    "children": []
+  }
+]

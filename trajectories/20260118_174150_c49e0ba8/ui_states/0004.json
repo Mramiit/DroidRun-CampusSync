@@ -1,0 +1,74 @@
+[
+  {
+    "index": 1,
+    "resourceId": "",
+    "className": "FrameLayout",
+    "text": "android.widget.FrameLayout",
+    "bounds": "0,0,1080,2400",
+    "children": []
+  },
+  {
+    "index": 2,
+    "resourceId": "com.google.android.calendar:id/drawer_layout",
+    "className": "DrawerLayout",
+    "text": "com.google.android.calendar:id/drawer_layout",
+    "bounds": "0,0,1080,2400",
+    "children": []
+  },
+  {
+    "index": 3,
+    "resourceId": "",
+    "className": "FrameLayout",
+    "text": "android.widget.FrameLayout",
+    "bounds": "0,0,1080,2400",
+    "children": []
+  },
+  {
+    "index": 4,
+    "resourceId": "",
+    "className": "FrameLayout",
+    "text": "android.widget.FrameLayout",
+    "bounds": "0,0,1080,2400",
+    "children": []
+  },
+  {
+    "index": 5,
+    "resourceId": "com.google.android.calendar:id/fade_layer",
+    "className": "View",
+    "text": "com.google.android.calendar:id/fade_layer",
+    "bounds": "0,0,1080,2400",
+    "children": []
+  },
+  {
+    "index": 6,
+    "resourceId": "com.google.android.calendar:id/speed_dial_event_container",
+    "className": "FrameLayout",
+    "text": "com.google.android.calendar:id/speed_dial_event_container",
+    "bounds": "710,2148,1038,2295",
+    "children": []
+  },
+  {
+    "index": 7,
+    "resourceId": "com.google.android.calendar:id/speed_dial_title",
+    "className": "TextView",
+    "text": "Event",
+    "bounds": "752,2192,849,2250",
+    "children": []
+  },
+  {
+    "index": 8,
+    "resourceId": "com.google.android.calendar:id/tasks_speed_dial_container",
+    "className": "FrameLayout",
+    "text": "com.google.android.calendar:id/tasks_speed_dial_container",
+    "bounds": "727,1990,1038,2115",
+    "children": []
+  },
+  {
+    "index": 9,
+    "resourceId": "com.google.android.calendar:id/speed_dial_title",
+    "className": "TextView",
+    "text": "Task",
+    "bounds": "769,2023,849,2081",
+    "children": []
+  }
+]

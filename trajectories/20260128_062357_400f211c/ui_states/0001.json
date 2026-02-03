@@ -1,0 +1,66 @@
+[
+  {
+    "index": 1,
+    "resourceId": "",
+    "className": "FrameLayout",
+    "text": "android.widget.FrameLayout",
+    "bounds": "0,0,1080,2400",
+    "children": []
+  },
+  {
+    "index": 2,
+    "resourceId": "",
+    "className": "ScrollView",
+    "text": "android.widget.ScrollView",
+    "bounds": "0,136,1080,2337",
+    "children": []
+  },
+  {
+    "index": 3,
+    "resourceId": "com.whatsapp:id/headline_text",
+    "className": "TextView",
+    "text": "You have been logged out",
+    "bounds": "0,517,1080,602",
+    "children": []
+  },
+  {
+    "index": 4,
+    "resourceId": "com.whatsapp:id/description_text",
+    "className": "TextView",
+    "text": "Your phone number is no longer registered with WhatsApp on this phone.",
+    "bounds": "0,602,1080,811",
+    "children": []
+  },
+  {
+    "index": 5,
+    "resourceId": "com.whatsapp:id/moving_to_new_phone_heading",
+    "className": "TextView",
+    "text": "Moving to a new phone?",
+    "bounds": "84,916,547,973",
+    "children": []
+  },
+  {
+    "index": 6,
+    "resourceId": "com.whatsapp:id/moving_to_new_phone_description",
+    "className": "TextView",
+    "text": "We recommend that you delete your chats from this phone. This won't delete any chats backed up to your Google account.",
+    "bounds": "84,984,996,1141",
+    "children": []
+  },
+  {
+    "index": 7,
+    "resourceId": "",
+    "className": "View",
+    "text": "delete your chats from this phone",
+    "bounds": "84,984,996,1096",
+    "children": []
+  },
+  {
+    "index": 8,
+    "resourceId": "com.whatsapp:id/primary_button",
+    "className": "Button",
+    "text": "LOG IN",
+    "bounds": "42,2169,1038,2295",
+    "children": []
+  }
+]

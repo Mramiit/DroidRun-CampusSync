@@ -1,0 +1,186 @@
+[
+  {
+    "index": 1,
+    "resourceId": "",
+    "className": "FrameLayout",
+    "text": "android.widget.FrameLayout",
+    "bounds": "109,566,971,1874",
+    "children": []
+  },
+  {
+    "index": 2,
+    "resourceId": "",
+    "className": "ViewGroup",
+    "text": "android.view.ViewGroup",
+    "bounds": "112,570,968,1870",
+    "children": []
+  },
+  {
+    "index": 3,
+    "resourceId": "com.google.android.calendar:id/header_title",
+    "className": "TextView",
+    "text": "Select time",
+    "bounds": "172,608,343,658",
+    "children": []
+  },
+  {
+    "index": 4,
+    "resourceId": "com.google.android.calendar:id/material_hour_tv",
+    "className": "View",
+    "text": "11",
+    "bounds": "172,703,424,913",
+    "children": []
+  },
+  {
+    "index": 5,
+    "resourceId": "com.google.android.calendar:id/material_minute_tv",
+    "className": "View",
+    "text": "00",
+    "bounds": "487,703,739,913",
+    "children": []
+  },
+  {
+    "index": 6,
+    "resourceId": "com.google.android.calendar:id/material_clock_period_toggle",
+    "className": "LinearLayout",
+    "text": "Select AM or PM",
+    "bounds": "771,682,908,934",
+    "children": []
+  },
+  {
+    "index": 7,
+    "resourceId": "com.google.android.calendar:id/material_clock_period_am_button",
+    "className": "RadioButton",
+    "text": "AM",
+    "bounds": "771,682,908,808",
+    "children": []
+  },
+  {
+    "index": 8,
+    "resourceId": "com.google.android.calendar:id/material_clock_period_pm_button",
+    "className": "RadioButton",
+    "text": "PM",
+    "bounds": "769,807,905,933",
+    "children": []
+  },
+  {
+    "index": 9,
+    "resourceId": "",
+    "className": "TextView",
+    "text": "11",
+    "bounds": "347,1056,473,1181",
+    "children": []
+  },
+  {
+    "index": 10,
+    "resourceId": "",
+    "className": "TextView",
+    "text": "12",
+    "bounds": "478,1021,603,1146",
+    "children": []
+  },
+  {
+    "index": 11,
+    "resourceId": "",
+    "className": "TextView",
+    "text": "10",
+    "bounds": "253,1150,378,1276",
+    "children": []
+  },
+  {
+    "index": 12,
+    "resourceId": "",
+    "className": "TextView",
+    "text": "1",
+    "bounds": "608,1056,734,1181",
+    "children": []
+  },
+  {
+    "index": 13,
+    "resourceId": "",
+    "className": "TextView",
+    "text": "2",
+    "bounds": "703,1150,828,1276",
+    "children": []
+  },
+  {
+    "index": 14,
+    "resourceId": "",
+    "className": "TextView",
+    "text": "9",
+    "bounds": "218,1280,343,1406",
+    "children": []
+  },
+  {
+    "index": 15,
+    "resourceId": "",
+    "className": "TextView",
+    "text": "3",
+    "bounds": "739,1281,864,1407",
+    "children": []
+  },
+  {
+    "index": 16,
+    "resourceId": "",
+    "className": "TextView",
+    "text": "8",
+    "bounds": "253,1412,378,1537",
+    "children": []
+  },
+  {
+    "index": 17,
+    "resourceId": "",
+    "className": "TextView",
+    "text": "7",
+    "bounds": "348,1506,473,1631",
+    "children": []
+  },
+  {
+    "index": 18,
+    "resourceId": "",
+    "className": "TextView",
+    "text": "6",
+    "bounds": "478,1542,603,1667",
+    "children": []
+  },
+  {
+    "index": 19,
+    "resourceId": "",
+    "className": "TextView",
+    "text": "5",
+    "bounds": "607,1506,734,1631",
+    "children": []
+  },
+  {
+    "index": 20,
+    "resourceId": "",
+    "className": "TextView",
+    "text": "4",
+    "bounds": "703,1412,828,1537",
+    "children": []
+  },
+  {
+    "index": 21,
+    "resourceId": "com.google.android.calendar:id/material_timepicker_mode_button",
+    "className": "Button",
+    "text": "Switch to text input mode for the time input.",
+    "bounds": "143,1739,270,1865",
+    "children": []
+  },
+  {
+    "index": 22,
+    "resourceId": "com.google.android.calendar:id/material_timepicker_cancel_button",
+    "className": "Button",
+    "text": "Cancel",
+    "bounds": "572,1744,759,1870",
+    "children": []
+  },
+  {
+    "index": 23,
+    "resourceId": "com.google.android.calendar:id/material_timepicker_ok_button",
+    "className": "Button",
+    "text": "OK",
+    "bounds": "780,1744,947,1870",
+    "children": []
+  }
+]

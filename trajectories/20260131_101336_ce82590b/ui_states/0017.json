@@ -1,0 +1,98 @@
+[
+  {
+    "index": 1,
+    "resourceId": "",
+    "className": "FrameLayout",
+    "text": "android.widget.FrameLayout",
+    "bounds": "0,0,1080,2424",
+    "children": []
+  },
+  {
+    "index": 2,
+    "resourceId": "android:id/content",
+    "className": "FrameLayout",
+    "text": "android:id/content",
+    "bounds": "0,0,1080,2424",
+    "children": []
+  },
+  {
+    "index": 3,
+    "resourceId": "",
+    "className": "ViewGroup",
+    "text": "android.view.ViewGroup",
+    "bounds": "0,0,1080,2424",
+    "children": []
+  },
+  {
+    "index": 4,
+    "resourceId": "com.google.android.deskclock:id/action_bar_title",
+    "className": "TextView",
+    "text": "Clock",
+    "bounds": "63,187,207,265",
+    "children": []
+  },
+  {
+    "index": 5,
+    "resourceId": "com.google.android.deskclock:id/overflow_action_button",
+    "className": "ImageView",
+    "text": "More options",
+    "bounds": "975,162,1080,288",
+    "children": []
+  },
+  {
+    "index": 6,
+    "resourceId": "com.google.android.deskclock:id/fab",
+    "className": "Button",
+    "text": "Add city",
+    "bounds": "414,1794,666,2046",
+    "children": []
+  },
+  {
+    "index": 7,
+    "resourceId": "",
+    "className": "ViewGroup",
+    "text": "android.view.ViewGroup",
+    "bounds": "0,2088,1080,2298",
+    "children": []
+  },
+  {
+    "index": 8,
+    "resourceId": "com.google.android.deskclock:id/tab_menu_alarm",
+    "className": "FrameLayout",
+    "text": "Alarm",
+    "bounds": "0,2088,216,2298",
+    "children": []
+  },
+  {
+    "index": 9,
+    "resourceId": "com.google.android.deskclock:id/tab_menu_clock",
+    "className": "FrameLayout",
+    "text": "Clock",
+    "bounds": "216,2088,432,2298",
+    "children": []
+  },
+  {
+    "index": 10,
+    "resourceId": "com.google.android.deskclock:id/tab_menu_timer",
+    "className": "FrameLayout",
+    "text": "Timer",
+    "bounds": "432,2088,648,2298",
+    "children": []
+  },
+  {
+    "index": 11,
+    "resourceId": "com.google.android.deskclock:id/tab_menu_stopwatch",
+    "className": "FrameLayout",
+    "text": "Stopwatch",
+    "bounds": "648,2096,864,2306",
+    "children": []
+  },
+  {
+    "index": 12,
+    "resourceId": "com.google.android.deskclock:id/tab_menu_bedtime",
+    "className": "FrameLayout",
+    "text": "Bedtime",
+    "bounds": "864,2088,1080,2298",
+    "children": []
+  }
+]

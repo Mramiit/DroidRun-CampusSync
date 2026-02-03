@@ -1,0 +1,186 @@
+[
+  {
+    "index": 1,
+    "resourceId": "",
+    "className": "FrameLayout",
+    "text": "android.widget.FrameLayout",
+    "bounds": "0,0,1080,2424",
+    "children": []
+  },
+  {
+    "index": 2,
+    "resourceId": "com.google.android.calendar:id/drawer_layout",
+    "className": "DrawerLayout",
+    "text": "com.google.android.calendar:id/drawer_layout",
+    "bounds": "0,0,1080,2424",
+    "children": []
+  },
+  {
+    "index": 3,
+    "resourceId": "",
+    "className": "FrameLayout",
+    "text": "android.widget.FrameLayout",
+    "bounds": "0,0,1080,2424",
+    "children": []
+  },
+  {
+    "index": 4,
+    "resourceId": "",
+    "className": "ImageButton",
+    "text": "Show Calendar List and Settings drawer",
+    "bounds": "11,152,158,299",
+    "children": []
+  },
+  {
+    "index": 5,
+    "resourceId": "com.google.android.calendar:id/date_picker_button",
+    "className": "LinearLayout",
+    "text": "January",
+    "bounds": "159,152,552,299",
+    "children": []
+  },
+  {
+    "index": 6,
+    "resourceId": "com.google.android.calendar:id/date_picker_text_view",
+    "className": "TextView",
+    "text": "January",
+    "bounds": "170,152,363,299",
+    "children": []
+  },
+  {
+    "index": 7,
+    "resourceId": "com.google.android.calendar:id/action_search",
+    "className": "Button",
+    "text": "Search",
+    "bounds": "552,162,679,288",
+    "children": []
+  },
+  {
+    "index": 8,
+    "resourceId": "com.google.android.calendar:id/action_today",
+    "className": "Button",
+    "text": "Jump to Today",
+    "bounds": "679,162,806,288",
+    "children": []
+  },
+  {
+    "index": 9,
+    "resourceId": "com.google.android.calendar:id/action_tasks",
+    "className": "Button",
+    "text": "Open Tasks",
+    "bounds": "806,162,933,288",
+    "children": []
+  },
+  {
+    "index": 10,
+    "resourceId": "com.google.android.calendar:id/selected_account_disc",
+    "className": "FrameLayout",
+    "text": "Signed in as KING Kohli kingkohli1jan@gmail.com\nAccount and settings.",
+    "bounds": "933,162,1080,288",
+    "children": []
+  },
+  {
+    "index": 11,
+    "resourceId": "com.google.android.calendar:id/content_view",
+    "className": "FrameLayout",
+    "text": "com.google.android.calendar:id/content_view",
+    "bounds": "0,313,1080,644",
+    "children": []
+  },
+  {
+    "index": 12,
+    "resourceId": "com.google.android.calendar:id/title_text",
+    "className": "TextView",
+    "text": "Add birthdays",
+    "bounds": "202,355,435,411",
+    "children": []
+  },
+  {
+    "index": 13,
+    "resourceId": "com.google.android.calendar:id/body_text",
+    "className": "TextView",
+    "text": "Be reminded about birthdays of the people you care about",
+    "bounds": "202,411,1043,514",
+    "children": []
+  },
+  {
+    "index": 14,
+    "resourceId": "com.google.android.calendar:id/secondary_button",
+    "className": "Button",
+    "text": "Not now",
+    "bounds": "502,514,733,644",
+    "children": []
+  },
+  {
+    "index": 15,
+    "resourceId": "com.google.android.calendar:id/primary_button",
+    "className": "Button",
+    "text": "Add a birthday",
+    "bounds": "733,514,1043,644",
+    "children": []
+  },
+  {
+    "index": 16,
+    "resourceId": "",
+    "className": "RecyclerView",
+    "text": "android.support.v7.widget.RecyclerView",
+    "bounds": "0,660,1080,2424",
+    "children": []
+  },
+  {
+    "index": 17,
+    "resourceId": "",
+    "className": "View",
+    "text": "Saturday 31 January 2026",
+    "bounds": "0,660,168,802",
+    "children": []
+  },
+  {
+    "index": 18,
+    "resourceId": "",
+    "className": "View",
+    "text": "android.view.View",
+    "bounds": "0,816,1080,2424",
+    "children": []
+  },
+  {
+    "index": 19,
+    "resourceId": "com.google.android.calendar:id/coordinator_layout",
+    "className": "ViewGroup",
+    "text": "com.google.android.calendar:id/coordinator_layout",
+    "bounds": "0,0,1080,2424",
+    "children": []
+  },
+  {
+    "index": 20,
+    "resourceId": "com.google.android.calendar:id/floating_action_button",
+    "className": "FloatingActionButton",
+    "text": "Create new event or other calendar entries",
+    "bounds": "891,2109,1038,2256",
+    "children": []
+  },
+  {
+    "index": 21,
+    "resourceId": "",
+    "className": "FrameLayout",
+    "text": "android.widget.FrameLayout",
+    "bounds": "21,2084,1059,2277",
+    "children": []
+  },
+  {
+    "index": 22,
+    "resourceId": "com.google.android.calendar:id/snackbar_text",
+    "className": "TextView",
+    "text": "Saved \"Analog Electronics Class\" on Fri, Feb 6.",
+    "bounds": "63,2084,730,2277",
+    "children": []
+  },
+  {
+    "index": 23,
+    "resourceId": "com.google.android.calendar:id/snackbar_action",
+    "className": "Button",
+    "text": "Invite via link",
+    "bounds": "751,2117,1038,2243",
+    "children": []
+  }
+]

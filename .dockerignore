@@ -1,0 +1,10 @@
+.env
+venv/
+__pycache__/
+.git/
+.gitignore
+*.db
+trajectories/
+Round 1/
+.idea/
+venv/

@@ -1,0 +1,25 @@
+{
+  "version": "1.0",
+  "description": "You are a student assistant. Perform the following sequence: 1. Open the 'Gallery' app and find the latest image containing 'Time Table'. Read the schedule for Monday. 2. Open the 'Notes' app and find the note titled 'Mess Menu'. Read the Lunch and Dinner items. 3. Cross-reference: If I have a class during Lunch (12:00 PM - 2:00 PM), flag a conflict. 4. Open 'WhatsApp', find the contact 'Roommate', and send a message summarizing my classes and whether the mess food is worth coming back for.",
+  "timestamp": "20260118_171139",
+  "total_actions": 2,
+  "actions": [
+    {
+      "type": "StartAppEvent",
+      "action_type": "start_app",
+      "description": "Start app com.google.android.apps.photos",
+      "package": "com.google.android.apps.photos",
+      "activity": ".home.HomeActivity"
+    },
+    {
+      "type": "TapActionEvent",
+      "action_type": "tap",
+      "description": "Tap element at index 11: 'Search' (Button) at coordinates (945, 2232)",
+      "x": 945,
+      "y": 2232,
+      "element_index": 11,
+      "element_text": "Search",
+      "element_bounds": "810,2127,1080,2337"
+    }
+  ]
+}

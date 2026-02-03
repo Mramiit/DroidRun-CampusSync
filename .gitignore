@@ -1,0 +1,29 @@
+# Security (CRITICAL)
+.env
+.env.local
+
+# Python Junk
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual Environment (Huge folder)
+venv/
+env/
+.venv/
+
+# Database
+*.sqlite3
+*.db
+
+# DroidRun Logs
+trajectories/
+logs/
+
+# OS Junk
+.DS_Store
+Thumbs.db
+
+# IDE Settings (VS Code)
+.vscode/
+.idea/

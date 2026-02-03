@@ -1,0 +1,7 @@
+fastapi
+uvicorn
+python-dotenv
+droidrun
+llama-index
+google-generativeai
+pydentic

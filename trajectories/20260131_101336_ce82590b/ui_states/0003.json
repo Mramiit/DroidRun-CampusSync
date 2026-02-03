@@ -1,0 +1,474 @@
+[
+  {
+    "index": 1,
+    "resourceId": "",
+    "className": "FrameLayout",
+    "text": "android.widget.FrameLayout",
+    "bounds": "0,0,1080,2424",
+    "children": []
+  },
+  {
+    "index": 2,
+    "resourceId": "com.google.android.calendar:id/drawer_layout",
+    "className": "DrawerLayout",
+    "text": "com.google.android.calendar:id/drawer_layout",
+    "bounds": "0,0,1080,2424",
+    "children": []
+  },
+  {
+    "index": 3,
+    "resourceId": "",
+    "className": "FrameLayout",
+    "text": "android.widget.FrameLayout",
+    "bounds": "0,0,1080,2424",
+    "children": []
+  },
+  {
+    "index": 4,
+    "resourceId": "",
+    "className": "ImageButton",
+    "text": "Show Calendar List and Settings drawer",
+    "bounds": "11,152,158,299",
+    "children": []
+  },
+  {
+    "index": 5,
+    "resourceId": "com.google.android.calendar:id/date_picker_button",
+    "className": "LinearLayout",
+    "text": "January",
+    "bounds": "159,152,552,299",
+    "children": []
+  },
+  {
+    "index": 6,
+    "resourceId": "com.google.android.calendar:id/date_picker_text_view",
+    "className": "TextView",
+    "text": "January",
+    "bounds": "170,152,362,299",
+    "children": []
+  },
+  {
+    "index": 7,
+    "resourceId": "com.google.android.calendar:id/action_search",
+    "className": "Button",
+    "text": "Search",
+    "bounds": "552,162,679,288",
+    "children": []
+  },
+  {
+    "index": 8,
+    "resourceId": "com.google.android.calendar:id/action_today",
+    "className": "Button",
+    "text": "Jump to Today",
+    "bounds": "679,162,806,288",
+    "children": []
+  },
+  {
+    "index": 9,
+    "resourceId": "com.google.android.calendar:id/action_tasks",
+    "className": "Button",
+    "text": "Open Tasks",
+    "bounds": "806,162,933,288",
+    "children": []
+  },
+  {
+    "index": 10,
+    "resourceId": "com.google.android.calendar:id/content_view",
+    "className": "FrameLayout",
+    "text": "com.google.android.calendar:id/content_view",
+    "bounds": "0,313,1080,640",
+    "children": []
+  },
+  {
+    "index": 11,
+    "resourceId": "com.google.android.calendar:id/title_text",
+    "className": "TextView",
+    "text": "Add birthdays",
+    "bounds": "202,355,435,411",
+    "children": []
+  },
+  {
+    "index": 12,
+    "resourceId": "com.google.android.calendar:id/body_text",
+    "className": "TextView",
+    "text": "Be reminded about birthdays of the people you care about",
+    "bounds": "202,411,1043,514",
+    "children": []
+  },
+  {
+    "index": 13,
+    "resourceId": "com.google.android.calendar:id/secondary_button",
+    "className": "Button",
+    "text": "Not now",
+    "bounds": "521,514,752,640",
+    "children": []
+  },
+  {
+    "index": 14,
+    "resourceId": "com.google.android.calendar:id/primary_button",
+    "className": "Button",
+    "text": "Add a birthday",
+    "bounds": "752,514,1043,640",
+    "children": []
+  },
+  {
+    "index": 15,
+    "resourceId": "",
+    "className": "RecyclerView",
+    "text": "android.support.v7.widget.RecyclerView",
+    "bounds": "0,656,1080,2424",
+    "children": []
+  },
+  {
+    "index": 16,
+    "resourceId": "",
+    "className": "View",
+    "text": "Sunday 28 December",
+    "bounds": "10,719,162,982",
+    "children": []
+  },
+  {
+    "index": 17,
+    "resourceId": "",
+    "className": "View",
+    "text": "Monday 29 December",
+    "bounds": "162,719,314,982",
+    "children": []
+  },
+  {
+    "index": 18,
+    "resourceId": "",
+    "className": "View",
+    "text": "Tuesday 30 December",
+    "bounds": "314,719,466,982",
+    "children": []
+  },
+  {
+    "index": 19,
+    "resourceId": "",
+    "className": "View",
+    "text": "Wednesday 31 December",
+    "bounds": "466,719,618,982",
+    "children": []
+  },
+  {
+    "index": 20,
+    "resourceId": "",
+    "className": "View",
+    "text": "Thursday 01 January",
+    "bounds": "619,719,771,982",
+    "children": []
+  },
+  {
+    "index": 21,
+    "resourceId": "",
+    "className": "View",
+    "text": "Friday 02 January",
+    "bounds": "771,719,923,982",
+    "children": []
+  },
+  {
+    "index": 22,
+    "resourceId": "",
+    "className": "View",
+    "text": "Saturday 03 January",
+    "bounds": "923,719,1075,982",
+    "children": []
+  },
+  {
+    "index": 23,
+    "resourceId": "",
+    "className": "View",
+    "text": "Sunday 04 January",
+    "bounds": "10,982,162,1245",
+    "children": []
+  },
+  {
+    "index": 24,
+    "resourceId": "",
+    "className": "View",
+    "text": "Monday 05 January",
+    "bounds": "162,982,314,1245",
+    "children": []
+  },
+  {
+    "index": 25,
+    "resourceId": "",
+    "className": "View",
+    "text": "Tuesday 06 January",
+    "bounds": "314,982,466,1245",
+    "children": []
+  },
+  {
+    "index": 26,
+    "resourceId": "",
+    "className": "View",
+    "text": "Wednesday 07 January",
+    "bounds": "466,982,618,1245",
+    "children": []
+  },
+  {
+    "index": 27,
+    "resourceId": "",
+    "className": "View",
+    "text": "Thursday 08 January",
+    "bounds": "619,982,771,1245",
+    "children": []
+  },
+  {
+    "index": 28,
+    "resourceId": "",
+    "className": "View",
+    "text": "Friday 09 January",
+    "bounds": "771,982,923,1245",
+    "children": []
+  },
+  {
+    "index": 29,
+    "resourceId": "",
+    "className": "View",
+    "text": "Saturday 10 January",
+    "bounds": "923,982,1075,1245",
+    "children": []
+  },
+  {
+    "index": 30,
+    "resourceId": "",
+    "className": "View",
+    "text": "Sunday 11 January",
+    "bounds": "10,1245,162,1508",
+    "children": []
+  },
+  {
+    "index": 31,
+    "resourceId": "",
+    "className": "View",
+    "text": "Monday 12 January",
+    "bounds": "162,1245,314,1508",
+    "children": []
+  },
+  {
+    "index": 32,
+    "resourceId": "",
+    "className": "View",
+    "text": "Tuesday 13 January",
+    "bounds": "314,1245,466,1508",
+    "children": []
+  },
+  {
+    "index": 33,
+    "resourceId": "",
+    "className": "View",
+    "text": "Wednesday 14 January",
+    "bounds": "466,1245,618,1508",
+    "children": []
+  },
+  {
+    "index": 34,
+    "resourceId": "",
+    "className": "View",
+    "text": "Thursday 15 January",
+    "bounds": "619,1245,771,1508",
+    "children": []
+  },
+  {
+    "index": 35,
+    "resourceId": "",
+    "className": "View",
+    "text": "Friday 16 January",
+    "bounds": "771,1245,923,1508",
+    "children": []
+  },
+  {
+    "index": 36,
+    "resourceId": "",
+    "className": "View",
+    "text": "Saturday 17 January",
+    "bounds": "923,1245,1075,1508",
+    "children": []
+  },
+  {
+    "index": 37,
+    "resourceId": "",
+    "className": "View",
+    "text": "Sunday 18 January",
+    "bounds": "10,1509,162,1772",
+    "children": []
+  },
+  {
+    "index": 38,
+    "resourceId": "",
+    "className": "View",
+    "text": "Monday 19 January",
+    "bounds": "162,1509,314,1772",
+    "children": []
+  },
+  {
+    "index": 39,
+    "resourceId": "",
+    "className": "View",
+    "text": "Tuesday 20 January",
+    "bounds": "314,1509,466,1772",
+    "children": []
+  },
+  {
+    "index": 40,
+    "resourceId": "",
+    "className": "View",
+    "text": "Wednesday 21 January",
+    "bounds": "466,1509,618,1772",
+    "children": []
+  },
+  {
+    "index": 41,
+    "resourceId": "",
+    "className": "View",
+    "text": "Thursday 22 January",
+    "bounds": "619,1509,771,1772",
+    "children": []
+  },
+  {
+    "index": 42,
+    "resourceId": "",
+    "className": "View",
+    "text": "Friday 23 January",
+    "bounds": "771,1509,923,1772",
+    "children": []
+  },
+  {
+    "index": 43,
+    "resourceId": "",
+    "className": "View",
+    "text": "Saturday 24 January",
+    "bounds": "923,1509,1075,1772",
+    "children": []
+  },
+  {
+    "index": 44,
+    "resourceId": "",
+    "className": "View",
+    "text": "Sunday 25 January",
+    "bounds": "10,1772,162,2035",
+    "children": []
+  },
+  {
+    "index": 45,
+    "resourceId": "",
+    "className": "View",
+    "text": "Monday 26 January",
+    "bounds": "162,1772,314,2035",
+    "children": []
+  },
+  {
+    "index": 46,
+    "resourceId": "",
+    "className": "View",
+    "text": "Tuesday 27 January",
+    "bounds": "314,1772,466,2035",
+    "children": []
+  },
+  {
+    "index": 47,
+    "resourceId": "",
+    "className": "View",
+    "text": "Wednesday 28 January",
+    "bounds": "466,1772,618,2035",
+    "children": []
+  },
+  {
+    "index": 48,
+    "resourceId": "",
+    "className": "View",
+    "text": "Thursday 29 January",
+    "bounds": "619,1772,771,2035",
+    "children": []
+  },
+  {
+    "index": 49,
+    "resourceId": "",
+    "className": "View",
+    "text": "Friday 30 January",
+    "bounds": "771,1772,923,2035",
+    "children": []
+  },
+  {
+    "index": 50,
+    "resourceId": "",
+    "className": "View",
+    "text": "Saturday 31 January",
+    "bounds": "923,1772,1075,2035",
+    "children": []
+  },
+  {
+    "index": 51,
+    "resourceId": "",
+    "className": "View",
+    "text": "Sunday 01 February",
+    "bounds": "10,2039,162,2302",
+    "children": []
+  },
+  {
+    "index": 52,
+    "resourceId": "",
+    "className": "View",
+    "text": "Monday 02 February",
+    "bounds": "162,2039,314,2302",
+    "children": []
+  },
+  {
+    "index": 53,
+    "resourceId": "",
+    "className": "View",
+    "text": "Tuesday 03 February",
+    "bounds": "314,2039,466,2302",
+    "children": []
+  },
+  {
+    "index": 54,
+    "resourceId": "",
+    "className": "View",
+    "text": "Wednesday 04 February",
+    "bounds": "466,2039,618,2302",
+    "children": []
+  },
+  {
+    "index": 55,
+    "resourceId": "",
+    "className": "View",
+    "text": "Thursday 05 February",
+    "bounds": "619,2039,771,2302",
+    "children": []
+  },
+  {
+    "index": 56,
+    "resourceId": "",
+    "className": "View",
+    "text": "Friday 06 February",
+    "bounds": "771,2039,923,2302",
+    "children": []
+  },
+  {
+    "index": 57,
+    "resourceId": "",
+    "className": "View",
+    "text": "Saturday 07 February",
+    "bounds": "923,2039,1075,2302",
+    "children": []
+  },
+  {
+    "index": 58,
+    "resourceId": "com.google.android.calendar:id/coordinator_layout",
+    "className": "ViewGroup",
+    "text": "com.google.android.calendar:id/coordinator_layout",
+    "bounds": "0,0,1080,2424",
+    "children": []
+  },
+  {
+    "index": 59,
+    "resourceId": "com.google.android.calendar:id/floating_action_button",
+    "className": "FloatingActionButton",
+    "text": "Create new event or other calendar entries",
+    "bounds": "891,2109,1038,2256",
+    "children": []
+  }
+]

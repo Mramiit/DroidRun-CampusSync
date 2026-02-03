@@ -1,0 +1,290 @@
+[
+  {
+    "index": 1,
+    "resourceId": "",
+    "className": "FrameLayout",
+    "text": "android.widget.FrameLayout",
+    "bounds": "0,0,1080,2400",
+    "children": []
+  },
+  {
+    "index": 2,
+    "resourceId": "android:id/content",
+    "className": "FrameLayout",
+    "text": "android:id/content",
+    "bounds": "0,0,1080,2400",
+    "children": []
+  },
+  {
+    "index": 3,
+    "resourceId": "",
+    "className": "ViewGroup",
+    "text": "android.view.ViewGroup",
+    "bounds": "0,0,1080,2400",
+    "children": []
+  },
+  {
+    "index": 4,
+    "resourceId": "com.google.android.deskclock:id/action_bar_title",
+    "className": "TextView",
+    "text": "Alarm",
+    "bounds": "63,177,218,262",
+    "children": []
+  },
+  {
+    "index": 5,
+    "resourceId": "com.google.android.deskclock:id/overflow_action_button",
+    "className": "ImageView",
+    "text": "More options",
+    "bounds": "975,156,1080,282",
+    "children": []
+  },
+  {
+    "index": 6,
+    "resourceId": "com.google.android.deskclock:id/alarm_recycler_view",
+    "className": "RecyclerView",
+    "text": "com.google.android.deskclock:id/alarm_recycler_view",
+    "bounds": "0,304,1080,2127",
+    "children": []
+  },
+  {
+    "index": 7,
+    "resourceId": "com.google.android.deskclock:id/digital_clock",
+    "className": "TextView",
+    "text": "10:30 AM",
+    "bounds": "84,304,490,432",
+    "children": []
+  },
+  {
+    "index": 8,
+    "resourceId": "com.google.android.deskclock:id/arrow",
+    "className": "ImageButton",
+    "text": "Expand 10:30 AM alarm",
+    "bounds": "891,304,996,333",
+    "children": []
+  },
+  {
+    "index": 9,
+    "resourceId": "com.google.android.deskclock:id/upcoming_instance_label",
+    "className": "TextView",
+    "text": "Not scheduled",
+    "bounds": "84,468,351,523",
+    "children": []
+  },
+  {
+    "index": 10,
+    "resourceId": "com.google.android.deskclock:id/onoff",
+    "className": "Switch",
+    "text": "10:30 AM alarm",
+    "bounds": "850,432,996,558",
+    "children": []
+  },
+  {
+    "index": 11,
+    "resourceId": "com.google.android.deskclock:id/edit_label",
+    "className": "TextView",
+    "text": "Add label",
+    "bounds": "84,579,891,705",
+    "children": []
+  },
+  {
+    "index": 12,
+    "resourceId": "com.google.android.deskclock:id/arrow",
+    "className": "ImageButton",
+    "text": "Collapse 9:30 PM alarm",
+    "bounds": "891,579,996,705",
+    "children": []
+  },
+  {
+    "index": 13,
+    "resourceId": "com.google.android.deskclock:id/digital_clock",
+    "className": "TextView",
+    "text": "9:30 PM",
+    "bounds": "84,705,413,888",
+    "children": []
+  },
+  {
+    "index": 14,
+    "resourceId": "com.google.android.deskclock:id/repeat_summary",
+    "className": "TextView",
+    "text": "Today",
+    "bounds": "84,924,850,979",
+    "children": []
+  },
+  {
+    "index": 15,
+    "resourceId": "com.google.android.deskclock:id/onoff",
+    "className": "Switch",
+    "text": "9:30 PM alarm",
+    "bounds": "850,888,996,1014",
+    "children": []
+  },
+  {
+    "index": 16,
+    "resourceId": "com.google.android.deskclock:id/day_button_0",
+    "className": "CheckBox",
+    "text": "S",
+    "bounds": "74,1014,200,1140",
+    "children": []
+  },
+  {
+    "index": 17,
+    "resourceId": "com.google.android.deskclock:id/day_button_1",
+    "className": "CheckBox",
+    "text": "M",
+    "bounds": "208,1014,334,1140",
+    "children": []
+  },
+  {
+    "index": 18,
+    "resourceId": "com.google.android.deskclock:id/day_button_2",
+    "className": "CheckBox",
+    "text": "T",
+    "bounds": "343,1014,469,1140",
+    "children": []
+  },
+  {
+    "index": 19,
+    "resourceId": "com.google.android.deskclock:id/day_button_3",
+    "className": "CheckBox",
+    "text": "W",
+    "bounds": "477,1014,603,1140",
+    "children": []
+  },
+  {
+    "index": 20,
+    "resourceId": "com.google.android.deskclock:id/day_button_4",
+    "className": "CheckBox",
+    "text": "T",
+    "bounds": "611,1014,737,1140",
+    "children": []
+  },
+  {
+    "index": 21,
+    "resourceId": "com.google.android.deskclock:id/day_button_5",
+    "className": "CheckBox",
+    "text": "F",
+    "bounds": "746,1014,872,1140",
+    "children": []
+  },
+  {
+    "index": 22,
+    "resourceId": "com.google.android.deskclock:id/day_button_6",
+    "className": "CheckBox",
+    "text": "S",
+    "bounds": "880,1014,1006,1140",
+    "children": []
+  },
+  {
+    "index": 23,
+    "resourceId": "com.google.android.deskclock:id/blackout_title",
+    "className": "TextView",
+    "text": "Schedule alarm",
+    "bounds": "84,1140,469,1266",
+    "children": []
+  },
+  {
+    "index": 24,
+    "resourceId": "com.google.android.deskclock:id/choose_ringtone",
+    "className": "TextView",
+    "text": "Default (Cesium)",
+    "bounds": "84,1266,996,1392",
+    "children": []
+  },
+  {
+    "index": 25,
+    "resourceId": "com.google.android.deskclock:id/vibrate_onoff",
+    "className": "CheckBox",
+    "text": "Vibrate",
+    "bounds": "84,1392,996,1518",
+    "children": []
+  },
+  {
+    "index": 26,
+    "resourceId": "com.google.android.deskclock:id/workflow_label",
+    "className": "TextView",
+    "text": "Google Assistant Routine",
+    "bounds": "84,1518,996,1644",
+    "children": []
+  },
+  {
+    "index": 27,
+    "resourceId": "com.google.android.deskclock:id/delete",
+    "className": "Button",
+    "text": "Delete",
+    "bounds": "84,1644,351,1770",
+    "children": []
+  },
+  {
+    "index": 28,
+    "resourceId": "com.google.android.deskclock:id/fab",
+    "className": "Button",
+    "text": "Add alarm",
+    "bounds": "414,1833,666,2085",
+    "children": []
+  },
+  {
+    "index": 29,
+    "resourceId": "",
+    "className": "ViewGroup",
+    "text": "android.view.ViewGroup",
+    "bounds": "0,2127,1080,2337",
+    "children": []
+  },
+  {
+    "index": 30,
+    "resourceId": "com.google.android.deskclock:id/tab_menu_alarm",
+    "className": "FrameLayout",
+    "text": "Alarm",
+    "bounds": "0,2127,216,2337",
+    "children": []
+  },
+  {
+    "index": 31,
+    "resourceId": "com.google.android.deskclock:id/tab_menu_clock",
+    "className": "FrameLayout",
+    "text": "Clock",
+    "bounds": "216,2127,432,2337",
+    "children": []
+  },
+  {
+    "index": 32,
+    "resourceId": "com.google.android.deskclock:id/tab_menu_timer",
+    "className": "FrameLayout",
+    "text": "Timer",
+    "bounds": "432,2127,648,2337",
+    "children": []
+  },
+  {
+    "index": 33,
+    "resourceId": "com.google.android.deskclock:id/tab_menu_stopwatch",
+    "className": "FrameLayout",
+    "text": "Stopwatch",
+    "bounds": "648,2127,864,2337",
+    "children": []
+  },
+  {
+    "index": 34,
+    "resourceId": "com.google.android.deskclock:id/tab_menu_bedtime",
+    "className": "FrameLayout",
+    "text": "Bedtime",
+    "bounds": "864,2127,1080,2337",
+    "children": []
+  },
+  {
+    "index": 35,
+    "resourceId": "",
+    "className": "FrameLayout",
+    "text": "android.widget.FrameLayout",
+    "bounds": "21,1662,1059,1791",
+    "children": []
+  },
+  {
+    "index": 36,
+    "resourceId": "com.google.android.deskclock:id/snackbar_text",
+    "className": "TextView",
+    "text": "Alarm set for 4 hours and 2 minutes from now.",
+    "bounds": "63,1662,1017,1791",
+    "children": []
+  }
+]

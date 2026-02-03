@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CampusSync | Smart Scheduling</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        // Configuration for the API
+        const API_URL = ""; // Empty because we are serving from the same origin
+
+        async function loadConfig() {
+            const response = await fetch(`${API_URL}/config`);
+            const data = await response.json();
+            document.getElementById('contactInput').value = data.target_contact;
+            document.getElementById('offsetInput').value = data.alarm_offset;
+        }
+
+        async function saveConfig() {
+            const contact = document.getElementById('contactInput').value;
+            const offset = document.getElementById('offsetInput').value;
+            
+            const response = await fetch(`${API_URL}/config`, {
+                method: 'POST',
+                headers: {'Content-Type': 'application/json'},
+                body: JSON.stringify({ target_contact: contact, alarm_offset: parseInt(offset) })
+            });
+            
+            if(response.ok) {
+                showStatus("✅ Settings Saved!", "text-green-600");
+            }
+        }
+
+        async function runAgent() {
+            const btn = document.querySelector("button[onclick='runAgent()']");
+            const statusEl = document.getElementById('statusMsg');
+            
+            // 1. Disable button & Show Loading State
+            btn.disabled = true;
+            btn.innerText = "⏳ Syncing...";
+            btn.classList.add("opacity-50", "cursor-not-allowed");
+            
+            // Show a "working" message while waiting
+            statusEl.innerText = "🤖 Reading WhatsApp & Scheduling..."; 
+            statusEl.className = "mt-4 text-center font-bold text-gray-600";
+
+            try {
+                // 2. Wait for the backend (this might take 10-20 seconds)
+                const response = await fetch(`${API_URL}/run-agent`, { method: 'POST' });
+                const data = await response.json();
+                
+                // 3. Handle the result
+                if(response.ok && data.status === "success") {
+                    // HERE IS YOUR CUSTOM MESSAGE
+                    statusEl.innerText = "✅ Class scheduled to Calendar and Clock!";
+                    statusEl.className = "mt-4 text-center font-bold text-green-600 text-lg";
+                } else {
+                    // Handle failure
+                    statusEl.innerText = `⚠️ ${data.message || data.detail}`;
+                    statusEl.className = "mt-4 text-center font-bold text-red-600";
+                }
+            } catch (error) {
+                statusEl.innerText = "❌ Connection Error";
+                statusEl.className = "mt-4 text-center font-bold text-red-600";
+            } finally {
+                // 4. Reset Button
+                btn.disabled = false;
+                btn.innerText = "⚡ Sync Now";
+                btn.classList.remove("opacity-50", "cursor-not-allowed");
+            }
+        }
+        function showStatus(msg, colorClass) {
+            const el = document.getElementById('statusMsg');
+            el.innerText = msg;
+            el.className = `mt-4 text-center font-bold ${colorClass}`;
+        }
+
+        window.onload = loadConfig;
+    </script>
+</head>
+<body class="bg-gray-100 min-h-screen flex items-center justify-center font-sans">
+
+    <div class="bg-white p-8 rounded-xl shadow-2xl w-full max-w-md border-t-4 border-green-500">
+        <h1 class="text-3xl font-extrabold text-gray-800 mb-2">CampusSync</h1>
+        <p class="text-gray-500 mb-6">Automated WhatsApp Scheduler</p>
+
+        <div class="space-y-4">
+            <div>
+                <label class="block text-sm font-medium text-gray-700">Target WhatsApp Name</label>
+                <input type="text" id="contactInput" class="mt-1 block w-full p-2 border border-gray-300 rounded-md shadow-sm focus:ring-green-500 focus:border-green-500" placeholder="e.g. Class Group A">
+                <p class="text-xs text-gray-400 mt-1">The name exactly as it appears in WhatsApp.</p>
+            </div>
+
+            <div>
+                <label class="block text-sm font-medium text-gray-700">Alarm Offset (Minutes)</label>
+                <input type="number" id="offsetInput" class="mt-1 block w-full p-2 border border-gray-300 rounded-md shadow-sm focus:ring-green-500 focus:border-green-500" placeholder="30">
+            </div>
+
+            <button onclick="saveConfig()" class="w-full bg-gray-200 hover:bg-gray-300 text-gray-800 font-semibold py-2 px-4 rounded transition">
+                Save Settings
+            </button>
+        </div>
+
+        <hr class="my-6 border-gray-200">
+
+        <div class="text-center">
+            <button onclick="runAgent()" class="w-full bg-green-600 hover:bg-green-700 text-white font-bold py-3 px-4 rounded-lg shadow-lg transform transition hover:scale-105">
+                ⚡ Sync Now
+            </button>
+            <div id="statusMsg" class="mt-4 text-gray-500 h-6"></div>
+        </div>
+    </div>
+
+</body>
+</html>
