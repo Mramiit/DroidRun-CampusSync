@@ -6,7 +6,7 @@ os.environ["GEMINI_API_KEY"] = "YOUR_ACTUAL_KEY_HERE"
 
 def list_my_models():
     try:
-        client = genai.Client(api_key=os.environ["AIzaSyBp86Uv-xRewQJKtrwXyXkFvxmtQTlOMkE"])
+        client = genai.Client(api_key=os.environ["API_KEY"])
         print("🔍 Asking Google for available models...")
         
         # List all models
