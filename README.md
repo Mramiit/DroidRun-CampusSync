@@ -10,7 +10,11 @@
 ---
 
 ## 🎥 Demo Video
-https://drive.google.com/file/d/1AOfgthg0IIMb_vjVbLDI_r4FwKbJ36Ne/view?usp=drivesdk
+
+
+https://github.com/user-attachments/assets/07eac4fa-5e3b-4d8f-a659-1e12ebc2fb72
+
+
 
 ---
 
