@@ -11,7 +11,7 @@ from langchain.tools import tool
 
 # --- CONFIGURATION ---
 
-os.environ["GOOGLE_API_KEY"] = "AIzaSyA27v2WwM1WL2H7UYUfTcjaay_IoomNjcU"
+os.environ["GOOGLE_API_KEY"] = "Api_key"
 
 DEVICE_ID = "emulator-5554" 
 TARGET_CONTACT = "Amit Kumar"
